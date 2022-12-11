@@ -1,0 +1,270 @@
+/****************************************************************************
+** Selector for all elements in the document **
+*****************************************************************************/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/****************************************************************************
+** Body **
+*****************************************************************************/
+
+body {
+    /*The background of the body element will be light grayish green*/ 
+    background-color: #d9dcd6;
+}
+
+/****************************************************************************
+** Header **
+*****************************************************************************/
+
+header {
+    /*Put a 20-pixel padding around header elemnt*/
+    padding: 20px;
+    /*The font type*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*The background of the header element will be dark moderate blue*/ 
+    background-color: #2a607c;
+    /*This will color the header fonts white*/
+    color: #ffffff;
+}
+
+
+/*Heading tag h1 (Horiseon)*/
+
+
+header h1 {
+    /* Display heading tag h1 horizontally */
+    display: inline-block;
+    /* Change the size of font to 48 pixels high. */
+    font-size: 48px;
+}
+
+
+header h1 .seo {
+    /* This will color the part of heading tag h1 (seo) font light grayish green. */
+    color: #d9dcd6;
+}
+
+
+/*Settings for navigational section*/
+
+
+header nav {
+    /*Put a 15-pixel padding at the top of nav section*/
+    padding-top: 15px;
+    /*Put a 20-pixel margin at the right of nav section*/
+    margin-right: 20px;
+    /*Nav section will float to the right*/
+    float: right;
+    /*The font type*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Change the size of font to 20 pixels high. */
+    font-size: 20px;
+}
+
+
+/*Navigational section*/
+
+
+header nav ul {
+    /* Listing nav elements without marks */
+    list-style-type: none;
+}
+
+
+/*All unordered list tags*/
+
+
+header nav ul li {
+    /* Display heading nav elements horizontally */
+    display: inline-block;
+    /*Put a 25-pixel margin at the left of heading nav elemnts*/
+    margin-left: 25px;
+}
+
+
+a {
+    /* Styled links with color white */
+    color: #ffffff;
+    /* None text decoration applied */
+    text-decoration: none;
+}
+
+
+/*Font size in paragraph tags*/
+
+
+p {
+    font-size: 16px;
+}
+
+
+/****************************************************************************
+** The hero image **
+*****************************************************************************/
+
+
+.hero {
+    /* Setting up image as a cover with height 800 pixels, 100% width and margin at 
+    the bottom of the image 25 pixels */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    /* Link to the image */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/****************************************************************************
+** Setting class for position of the element to left **
+*****************************************************************************/
+
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+
+/****************************************************************************
+** Setting class for position of the element to right **
+*****************************************************************************/
+
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/****************************************************************************
+** Styling main section **
+*****************************************************************************/
+
+
+main {
+    /* Setting block to 75% width of the page */
+    width: 75%;
+    /* Display block horizontally */
+    display: inline-block;
+    /*Put a 20-pixel margin at the left of the block*/
+    margin-left: 20px;
+}
+
+
+/****************************************************************************
+** Styling class: service for main block **
+*****************************************************************************/
+
+
+.service {
+    /*Put a 20-pixel margin at the bottom of all elements in the section main*/
+    margin-bottom: 20px;
+    /*Put a 50-pixel padding around all elements in the section main*/
+    padding: 50px;
+    /*Set height 300 pixels for all elements in the section main*/
+    height: 300px;
+    /*The font type*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*The background of all elements in section main will be strong blue*/
+    background-color: #0072bb;
+    /*The fonts color - white*/
+    color: #ffffff;
+}
+
+
+.service img {
+    /* All images have maximum height 200 pixels */
+    max-height: 200px;
+}
+
+
+.service h2 {
+    /* Heading tags h2 have a margin 20 pixels at the bottom and font
+    size 36 pixels */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/****************************************************************************
+** Styling class: benefits, for block aside **
+*****************************************************************************/
+
+
+.benefits {
+    /*Put a 20-pixel margin on the right of aside block*/
+    margin-right: 20px;
+    /*Put a 20-pixel padding around aside block*/
+    padding: 20px;
+    /* clears all the elements floated left or right */
+    clear: both;
+    /*Aside section will float to the right*/
+    float: right;
+    width: 20%;
+    height: 100%;
+    /* Font type */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*The background of the aside element will be strong blue*/
+    background-color: #2589bd;
+}
+
+
+/****************************************************************************
+** Styling class: benefit, for elements in block aside **
+*****************************************************************************/
+
+
+.benefit {
+    /* All elements in aside section have a margin 32 pixels at the bottom and font
+    color white */
+
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+.benefit h3 {
+     /* Heading tags h3 have a margin 10 pixels at the bottom and centered text align */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.benefit img {
+    /* All images are displayed vertically with margin 10 pixels top and bottom
+    and auto left and right. Maximum width 150 pixels */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/****************************************************************************
+** Styling footer **
+*****************************************************************************/
+
+
+footer {
+    /*Put a 30-pixel padding around the block*/
+    padding: 30px;
+    /* clears all the elements floated left or right */
+    clear: both;
+    /* Font type */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Text centered align */
+    text-align: center;
+}
+
+
+footer h2 {
+    /* Font size of h2 in footer has a size 20 pixels */
+    font-size: 20px;
+}
